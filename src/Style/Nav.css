@@ -1,0 +1,28 @@
+li.nav{
+    display: inline;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+.link:hover{
+    color:cornflowerblue;
+}
+
+ul{
+    text-align: center;
+    padding-left: 0;
+}
+
+div{
+    margin: 20px 0;
+    padding: 0;
+}
+
+nav{
+    margin: 0;
+    padding: 0;
+}

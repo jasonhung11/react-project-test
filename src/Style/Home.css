@@ -1,0 +1,32 @@
+img.herro {
+    width: 100%;
+    height: 500px;
+
+}
+
+div.big-div{
+    text-align: center;
+    margin: 2% 8%;
+}
+
+.story-button{
+    color: black;
+    background-color: white;
+    padding: 10px 25px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1em;
+}
+
+.product-img{
+    width: 100%;
+    height: 100px;
+}
+
+.div-rotation{
+    border-radius: 10px;
+    border: 2px solid black;
+}
