@@ -1,0 +1,15 @@
+.sidebar{
+    background-color: rgb(224, 224, 224);
+    overflow-y: scroll;
+}
+
+.sidebar-list-item{
+    padding: 5px 15px;
+}
+
+#sidebar-h1{
+    padding: 10px 15px;
+    font-size: 20px;
+    
+}
+

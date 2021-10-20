@@ -1,0 +1,28 @@
+.menu-div{
+    background-color: rgb(37, 34, 34);
+    height: 45px;
+    line-height: 45px;
+    position: sticky;
+    top: 0;
+}
+
+.bold-text{
+    
+}
+
+.menu-button{
+    color: white;
+    font-size: 18px;
+    padding: 0px 10px;
+    height: 45;
+}
+
+
+.menu-li:hover{
+    background-color: black;
+}
+
+.menu-li{
+    text-decoration: none;
+    display: inline-block;
+}

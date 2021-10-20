@@ -1,28 +1,75 @@
+.nav-div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.inline-div{
+    display: flex;
+    align-items: center;
+}
+
 li.nav{
-    display: inline;
+    display: inline-block;
+    height: 75px;
+    line-height: 75px;
 }
 
 .link{
     text-decoration: none;
     color: black;
-    padding: 10px;
+    
 }
 
-.link:hover{
+.nav:hover{
+    background-color: rgb(72, 226, 123);
+}
+
+.nav:hover + .link{
     color:cornflowerblue;
 }
 
-ul{
-    text-align: center;
-    padding-left: 0;
+.nav{
+    padding: 0 20px;
 }
 
-div{
-    margin: 20px 0;
-    padding: 0;
+
+.nav-button-div{
+    border-radius: 50px;
+    width: 135px;
+    height: 40px;
+    line-height: 40px;
 }
 
-nav{
-    margin: 0;
-    padding: 0;
+
+.inline-div{
+    display: inline;
 }
+
+
+#pink-button{
+    background-color: pink;
+}
+
+.bold-text{
+    font-weight: bold;
+}
+
+
+
+
+#login-button{
+    background-color:rgb(28, 145, 67);
+    color: white;
+}
+
+#nav-small-button{
+    margin-left: 5px;
+    background-color: white;
+    width: 40px;
+    height: 20px;
+    border: 1px solid black;
+    font-size: 10px;
+    line-height: 20px;
+
+}
+
